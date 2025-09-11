@@ -39,4 +39,22 @@ overflow-x: auto;
 gap: 10px;
 }
 
-.categoria-videos 
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(211, 140, 240);
+}
+
+.categoria h2 {
+    color: blueviolet;
+}
